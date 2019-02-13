@@ -19,9 +19,9 @@
     <li><a href="cambiarCategoria.php">Cambiar categoria</a></li>
   </ol>
   <ol id="">
-        <li><a href="consultarDept.php">Consultar departamento </a></li>
-        <li><a href="consultarSalario.php">Consultar salario</a></li>
-		<li><a href="consultarCategoria.php">Consultar categoria</a></li>
+        <li><a href="consultarDeptManager.php">Consultar departamento </a></li>
+        <li><a href="consultarSalarioManager.php">Consultar salario</a></li>
+		<li><a href="consultarCategoriaManager.php">Consultar categoria</a></li>
   </ol>
 </nav>
 	  

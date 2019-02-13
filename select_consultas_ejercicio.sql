@@ -68,3 +68,8 @@
  
  select * from departments, dept_emp where dept_emp.dept_no=departments.dept_no and emp_no=10002;
  
+ 
+ -- devuelve el titulo del empleados
+ 
+ select title from titles where title='manager' and  to_date='9999-01-01' and emp_no=110039;
+ 

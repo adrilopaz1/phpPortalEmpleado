@@ -5,15 +5,14 @@
 
 	
 
-	echo "<form name='formu1' action='insertarSalario.php' method='get'>";
+	echo "<form name='formu1' action='consultarCategoriaManager_consult.php' method='get'>";
 		
 		echo "Id_Empleado <input type='text' name='idempl' size='15'/>";
 		echo "<br>";
 		echo "<br>";
-		echo "Nuevo salario <input type='text' name='salario' size='15'/>";
-	echo "<br>";
-	echo "<br>";
+		
 	echo "<input type='submit' value='Enviar'>";
+
 	echo "<input type='button' value='atras' onclick='history.back()'>";
 	echo "</form>";
 

@@ -51,6 +51,7 @@
 			if (mysqli_query($conn, $sqlupdate)) {
 
 				echo "Cambio de fecha de categoria CORRECTAMENTE";
+				echo "<br>";
 
 			}else{
 			echo "error ".mysqli_error($conn);
@@ -70,9 +71,11 @@
 			if (mysqli_query($conn, $sqlupdate)) {
 
 				echo "Cambio de categoria del empleado $id CORRECTAMENTE";
-
+				echo "<br>";
+				echo "<input type='button' value='atras' onclick='history.back()'>";
 			}else{
 			echo "error ".mysqli_error($conn);
+			echo "<input type='button' value='atras' onclick='history.back()'>";
 			}
 	
 	}

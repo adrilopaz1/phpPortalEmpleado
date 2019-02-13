@@ -32,7 +32,7 @@
 		}
 
 	echo "<input type='submit' value='Enviar'>";
-
+	echo "<input type='button' value='atras' onclick='history.back()'>";
 	echo "</form>";
 
 	

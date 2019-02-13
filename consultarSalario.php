@@ -30,6 +30,8 @@
     }
 	 
 	echo "</TABLE>";
+	echo "<br>";
+	echo "<input type='button' value='atras' onclick='history.back()'>";
 	}
 	
 	 // emp_no | dept_no | from_date  | to_date

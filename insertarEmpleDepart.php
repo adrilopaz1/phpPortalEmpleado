@@ -136,6 +136,8 @@
 			if (mysqli_query($conn, $sqlupdate)) {
 
 				echo "Cambio del empleado $id al departamento $idDepart CORRECTAMENTE";
+				echo "<br>";
+				echo "<input type='button' value='atras' onclick='history.back()'>";
 
 			}else{
 			echo "error ".mysqli_error($conn);
@@ -169,6 +171,8 @@
 			if (mysqli_query($conn, $sqlupdate)) {
 
 				echo "Cambio del empleado $id al departamento $deptEmple CORRECTAMENTE";
+				echo "<br>";
+				echo "<input type='button' value='atras' onclick='history.back()'>";
 
 			}else{
 			echo "error ".mysqli_error($conn);
